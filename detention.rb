@@ -1,5 +1,9 @@
 #Code your detention class here
 class Detention 
+  
+  def initialize
+    @activity = 
+  
   def location
     return @location
   end
