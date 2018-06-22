@@ -54,10 +54,6 @@ class Detention
     @add_student = @students << add_student
   end
   
-  def remove_student
-    return @remove_student
-  end
-  
   def remove_student(remove_student)
     @students = @students.delete(remove_student)
   end
