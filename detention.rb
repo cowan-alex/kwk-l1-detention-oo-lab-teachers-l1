@@ -36,4 +36,11 @@ class Detention
   def grumpy_teacher=(grumpy_teacher)
     @grumpy_teacher = grumpy_teacher
   end
+  
+  def students
+    return @students
+  end
+  
+  def students=([])
+    @students = students
 end
