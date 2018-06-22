@@ -41,6 +41,7 @@ class Detention
     return @students
   end
   
-  def students=([])
+  def students=()
     @students = students
+  end
 end
