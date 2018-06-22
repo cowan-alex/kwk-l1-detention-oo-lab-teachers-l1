@@ -7,4 +7,12 @@ class Detention
   def location=(location)
     @location = location
   end
+  
+  def time
+    return @time
+  end
+  
+  def time=(time)
+    @time = time
+  end
 end
