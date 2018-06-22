@@ -50,7 +50,7 @@ class Detention
     return @add_student
   end
   
-  def add_student=(add_student)
+  def add_student(add_student)
     @add_student = add_student
   end
   
