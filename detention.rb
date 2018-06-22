@@ -42,6 +42,6 @@ class Detention
   end
   
   def students=(students)
-    @students = []
+    @students = students
   end
 end
