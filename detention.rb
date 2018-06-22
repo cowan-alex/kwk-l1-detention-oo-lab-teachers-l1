@@ -5,6 +5,14 @@ class Detention
     @activity = "collective punishment"
   end
   
+  def activity
+    return @activity
+  end
+  
+  def activity=(activity)
+    @activity = activity
+  end
+  
   def location
     return @location
   end
