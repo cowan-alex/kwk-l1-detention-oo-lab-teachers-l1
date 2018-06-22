@@ -3,6 +3,7 @@ class Detention
   
   def initialize
     @activity = "collective punishment"
+  end
   
   def location
     return @location
