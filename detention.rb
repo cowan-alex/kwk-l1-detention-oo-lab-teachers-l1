@@ -15,4 +15,12 @@ class Detention
   def time=(time)
     @time = time
   end
+  
+  def grumpy_teacher
+    return @grumpy_teacher
+  end
+  
+  def grumpy_teacher=(grumpy_teacher)
+    @grumpy_teacher = grumpy_teacher
+  end
 end
