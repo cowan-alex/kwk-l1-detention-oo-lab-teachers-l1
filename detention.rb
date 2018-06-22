@@ -45,4 +45,12 @@ class Detention
   def students=(students)
     @students = students 
   end
+  
+  def add_student
+    return @add_student
+  end
+  
+  def add_student=(add_student)
+    @add_student = add_student
+  end
 end
